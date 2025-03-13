@@ -24,3 +24,7 @@ fun multiplica(num1: Int, num2: Int): Int {
 fun showResult(operation: String, result: Int) {
     println("El resultado de la operación \"$operation\" es: $result")
 }
+
+fun divideE(num1: Int, num2: Int): Int {
+    return num1 / num2
+}
